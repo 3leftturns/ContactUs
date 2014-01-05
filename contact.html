@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+  <title>Contact Us</title>
+  
+  <link rel="stylesheet" type= "text/css" href="css/reset.css" >
+  <link rel="stylesheet" type= "text/css" href="css/style.css" >
+
+  </head>
+  <h1>Got something to say?</h1>
+  <p>We'd love to hear from you! Fill out the details below and we'll get back to you!</p>
+
+  <body>
+  <div id="myForm">
+    <form name="myForm">
+      <fieldset>
+        <legend>
+          Contact Us
+        </legend>
+        <div>
+          <label>Name:
+            <input type="text" name="name" size="30" maxlength="100" id="nameText"> </input>
+          </label>
+        <div>
+        
+        <div>
+          <label>Email:
+            <input type="email" name="email" size="30" maxlength="100" id="emailText"> </input>
+          </label>
+        </div>
+        </br>
+        <div>
+          <label id="commentsLabel">Comments:
+            <textarea name="comments" rows="4" cols="40" id="commentsText"> </textarea>
+        </div>
+        
+        <div>
+          <label>Please type the following characters:
+          
+          <input type="text" name="captcha" size="30" maxlength="12" id="captchaText"> </input>
+          
+          <img src="img\captcha1.jpg" alt="captcha" width="250"  />
+          <h6>(Not case sensitive)</h6>
+        </div>
+        <br />
+        
+        <input type="button" id="submit" name="myButton" onClick="validateCaptcha();" value="Submit" > </input>
+      </fieldset>
+    </form>
+  </div> <!-- myForm -->
+  <script type="text/javascript" src="lib/javascript.js"> </script>
+  </body>
+
+
+  </html>

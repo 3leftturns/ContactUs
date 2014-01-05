@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+
+}
+
+h1 {
+  font-size: 2em;
+  font-family: serif;
+  padding: 10px;
+
+}
+
+h6 {
+  font-size: .75em;
+  
+}
+
+p {
+  font-family: sans-serif;
+  padding: 10px;
+
+}
+
+fieldset {
+  width: 350px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  margin: 20px;
+
+}
+
+legend {
+  background-color: #efefef;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: left;
+  text-transform: uppercase;
+  
+}
+
+#myForm {
+  width: 300px;
+ 
+}
+
+#commentsLabel {
+  text-align: left;
+
+}
+
+img {
+  padding: 10px;
+
+  }
+
+#captchaText {
+  margin-top: 10px;
+  
+}
+
+#submit {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #dcdcdc;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 1em;
+  
+}
